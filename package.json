@@ -1,0 +1,11 @@
+{
+  "name": "com.smartspell.logging",
+  "displayName": "Smartspell Logging",
+  "version": "1.0.1",
+  "unity": "2018.1",
+  "description": "Simple logging tool for Unity3d (or c# only projects)",
+  "keywords": [
+    "logging",
+    "smartspell"
+  ]
+}
