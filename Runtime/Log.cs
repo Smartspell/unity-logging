@@ -68,9 +68,9 @@ namespace Smartspell.Logging
 		}
 
         public static Log FromMask(LogMask mask) => new(Factory.DefaultTarget(), LogFilter.Create(mask));
-        public static Log AllLevels() => FromMask(LogMask.All);
+        public static Log Empty() => FromMask(LogMask.Empty);
+        public static Log All() => FromMask(LogMask.All);
         public static Log WarningLevel() => FromMask(LogMask.Warning | LogMask.Error);
         public static Log ErrorLevel() => FromMask(LogMask.Error);
-        public static Log EmptyLevels() => FromMask(LogMask.Empty);
 	}
 }
